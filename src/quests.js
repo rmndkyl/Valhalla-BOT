@@ -63,7 +63,7 @@ const processQuests = async (bearerToken) => {
         await handleQuest(bearerToken, quest, 'claim');
       }
     } else {
-      console.log('SEMUA MISI NYA UDAH PADA KELAR ABANGKUH!!'.blue);
+      console.log('SEMUA MISI SPECIAL UDAH PADA KELAR ABANGKUH!!'.blue);
     }
 
     if (seasonalQuests.length > 0) {
@@ -72,7 +72,7 @@ const processQuests = async (bearerToken) => {
         await handleQuest(bearerToken, quest, 'claim');
       }
     } else {
-      console.log('SEMUA MISI NYA UDAH PADA KELAR ABANGKUH!!'.blue);
+      console.log('SEMUA MISI SEASONAL UDAH PADA KELAR ABANGKUH!!'.blue);
     }
   } catch (error) {
     console.error('Error in Process Quests: ' + error);
