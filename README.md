@@ -10,8 +10,8 @@ Valhalla Foundation Bot is a tool for automating the completion and claiming of 
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/dante4rt/valhalla-foundation-bot.git
-    cd valhalla-foundation-bot
+    git clone https://github.com/rmndkyl/Valhalla-BOT.git
+    cd Valhalla-BOT
     ```
 
 2. Install dependencies:
@@ -23,8 +23,8 @@ Valhalla Foundation Bot is a tool for automating the completion and claiming of 
 1. Create an `accounts.json` file in the root directory. This file should contain an array of bearer tokens for the accounts you want to automate. Example:
     ```json
     [
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiIwMUhZ...",
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiIwMUhZ..."
+      "Bearer eyJblablabla",
+      "Bearer eyJblablabla"
     ]
     ```
 
