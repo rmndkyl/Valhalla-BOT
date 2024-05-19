@@ -1,11 +1,11 @@
 # Valhalla Foundation Bot
 
 ## Description
-Valhalla Foundation Bot is a tool for automating the completion and claiming of quests on the Infinigods platform. The bot fetches available quests and processes them using bearer tokens provided in the `accounts.json` file.
+Kalo kalian make ini auto langsung kelar task yang di website nya sirr. Bot nya make bearer token nanti ada tutornya dibawah dan masukan bearer ke `accounts.json` file.
 
 ## Features
-- Automatically completes and claims social and seasonal quests.
-- Supports multiple accounts via bearer tokens.
+- Secara otomatis menyelesaikan dan mengklaim quest Social dan Seasonal.
+- Support buat langsung ngegarap banyak akun(tinggal masukan bearer sesuai akun).
 
 ## Installation
 1. Clone the repository:
@@ -29,14 +29,14 @@ Valhalla Foundation Bot is a tool for automating the completion and claiming of 
     ```
 
 2. To obtain your bearer token:
-    1. Open your web browser and log in to the Infinigods platform.
-    2. Open the Developer Tools (Right-click on the page and select "Inspect" or press `Ctrl+Shift+I`).
-    3. Go to the "Network" tab.
-    4. Perform an action that sends a network request, such as navigating to a different page.
-    5. Look for a request with an `Authorization` header in the request headers.
-    6. Copy the value of the `Authorization` header. It should start with `Bearer`.
+    1. Buka Web browser kalian dan Login ke [Infinigods platform]([url](https://www.valhallafoundation.xyz/missions?referrer=mandayy72)).
+    2. Buka Developer Tools (Klik-kanan di Website dah klik "Inspect" atau tekan `Ctrl+Shift+I`).
+    3. Pergi ke "Network" tab.
+    4. Refresh website nya dengan mencet tombol di keyboard Ctrl+R.
+    5. Cari permintaan dengan header `Authorization` dalam header permintaan.
+    6. Salin nilai dari header `Authorization`. Ini harus dimulai dengan `Bearer eyblabla`.
 
-3. Paste the copied bearer tokens into the `accounts.json` file.
+3. Paste Bearer yang sudah di copy ke `accounts.json` file.
 
 ## Usage
 Start the bot by running:
