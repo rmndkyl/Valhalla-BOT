@@ -3,6 +3,9 @@
 ## Description
 Kalo kalian make ini auto langsung kelar task yang di website nya sirr. Bot nya make bearer token nanti ada tutornya dibawah dan masukan bearer ke `accounts.json` file.
 
+## JANGAN LUPA REGISTER DI WEBSITE NYA DULU BANG..
+[LINK](https://www.valhallafoundation.xyz/missions?referrer=mandayy72)
+
 ## Features
 - Secara otomatis menyelesaikan dan mengklaim quest Social dan Seasonal.
 - Support buat langsung ngegarap banyak akun(tinggal masukan bearer sesuai akun).
