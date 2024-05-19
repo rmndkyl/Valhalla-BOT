@@ -4,7 +4,7 @@
 Kalo kalian make ini auto langsung kelar task yang di website nya sirr. Bot nya make bearer token nanti ada tutornya dibawah dan masukan bearer ke `accounts.json` file.
 
 ## JANGAN LUPA REGISTER DI WEBSITE NYA DULU BANG..
-[LINK](https://www.valhallafoundation.xyz/missions?referrer=mandayy72)
+[InfinityGods](https://www.valhallafoundation.xyz/missions?referrer=mandayy72)
 
 ## Features
 - Secara otomatis menyelesaikan dan mengklaim quest Social dan Seasonal.
@@ -32,7 +32,7 @@ Kalo kalian make ini auto langsung kelar task yang di website nya sirr. Bot nya 
     ```
 
 2. To obtain your bearer token:
-    1. Buka Web browser kalian dan Login ke [Infinigods platform]([url](https://www.valhallafoundation.xyz/missions?referrer=mandayy72)).
+    1. Buka Web browser kalian dan Login ke [Infinigods platform](https://www.valhallafoundation.xyz/missions?referrer=mandayy72).
     2. Buka Developer Tools (Klik-kanan di Website dah klik "Inspect" atau tekan `Ctrl+Shift+I`).
     3. Pergi ke "Network" tab.
     4. Refresh website nya dengan mencet tombol di keyboard Ctrl+R.
