@@ -40,7 +40,7 @@ const handleQuest = async (bearerToken, quest, action) => {
         action === 'complete' ? 'cleared' : 'claimed! Congrats boy ^_^';
       console.log(
         `Quest "${quest.title}" has been ${actionText}. Status: ${data.message}`[
-          action === 'complete' ? 'yellow' : 'green'
+          action === 'complete' ? 'blue' : 'white'
         ]
       );
     } else {
@@ -63,7 +63,7 @@ const processQuests = async (bearerToken) => {
         await handleQuest(bearerToken, quest, 'claim');
       }
     } else {
-      console.log('All special quests have been claimed >.<'.green);
+      console.log('SEMUA MISI NYA UDAH PADA KELAR ABANGKUH!!'.blue);
     }
 
     if (seasonalQuests.length > 0) {
@@ -72,7 +72,7 @@ const processQuests = async (bearerToken) => {
         await handleQuest(bearerToken, quest, 'claim');
       }
     } else {
-      console.log('All seasonal quests have been claimed >.<'.green);
+      console.log('SEMUA MISI NYA UDAH PADA KELAR ABANGKUH!!'.blue);
     }
   } catch (error) {
     console.error('Error in Process Quests: ' + error);
