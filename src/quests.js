@@ -37,7 +37,7 @@ const handleQuest = async (bearerToken, quest, action) => {
 
     if (data.Success) {
       const actionText =
-        action === 'complete' ? 'cleared' : 'claimed! Congrats boy ^_^';
+        action === 'complete' ? 'cleared' : 'Sukses Claim! Auto kelar misi di Website!';
       console.log(
         `Quest "${quest.title}" has been ${actionText}. Status: ${data.message}`[
           action === 'complete' ? 'blue' : 'white'
