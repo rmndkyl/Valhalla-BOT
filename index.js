@@ -7,7 +7,7 @@ const accounts = JSON.parse(fs.readFileSync('accounts.json', 'utf-8'));
 (async () => {
   process.stdout.write('\x1Bc');
   console.log('========================================='.blue);
-  console.log('=       Valhalla Foundation Bot        ='.white);
+  console.log('=       Valhalla Foundation Bot         ='.white);
   console.log('=      Created by layerairdrop          ='.blue);
   console.log('=     https://t.me/layerairdrop         ='.white);
   console.log('========================================='.blue);
