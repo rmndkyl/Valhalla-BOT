@@ -6,11 +6,11 @@ const accounts = JSON.parse(fs.readFileSync('accounts.json', 'utf-8'));
 
 (async () => {
   process.stdout.write('\x1Bc');
-  console.log('========================================='.cyan);
-  console.log('=        Valhalla Foundation Bot        ='.cyan);
-  console.log('=      Created by layerairdrop	       ='.cyan);
-  console.log('=     https://t.me/layerairdrop	       ='.cyan);
-  console.log('========================================='.cyan);
+  console.log('========================================='.blue);
+  console.log('=       Valhalla Foundation Bot        ='.white);
+  console.log('=      Created by layerairdrop          ='.blue);
+  console.log('=     https://t.me/layerairdrop         ='.white);
+  console.log('========================================='.blue);
   console.log();
   try {
     for (const bearerToken of accounts) {
@@ -20,3 +20,4 @@ const accounts = JSON.parse(fs.readFileSync('accounts.json', 'utf-8'));
     console.error('Error in IIFE: ' + error);
   }
 })();
+
